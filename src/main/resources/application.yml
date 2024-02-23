@@ -1,0 +1,22 @@
+openai:
+  api:
+    model:
+      gpt3_5:
+        engine: gpt-3.5-turbo-0125
+        token1KPrice:
+          input: 0.0005
+          output: 0.0015
+      gpt4:
+        engine: gpt-4
+        token1KPrice:
+          input: 0.03
+          output: 0.06
+    url: https://api.openai.com/v1/chat/completions
+    maxTokens: 2000
+    temperature: 1
+    topP: 1
+    frequencyPenalty: 0
+    presencePenalty: 0
+coffee:
+  bean:
+    price: 0.004
